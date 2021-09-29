@@ -83,11 +83,19 @@ log transformation: transform asymmetrical distribution to a symmetrical one coU
 $$
 r=\frac{\sum z_{x}z_{y}}{N-1}
 $$
+
+**Calculate the correlation in STATA:**
+
+> cur f(x) g(x)
+
 **Standardized the data:**
 $$
 Z_{x}=\frac{x-\bar{x}}{SD_{x}}
 $$
+
 **Positive Correlation:** x and y have a unidimensional relationship
 
 **Comment Return List**: Use to display the post-estimation statistics that were usually hidden in STATA
+
+![image-20210929175159247](https://wechat-1255725648.cos.ap-shanghai.myqcloud.com/image-20210929175159247.png)
 
