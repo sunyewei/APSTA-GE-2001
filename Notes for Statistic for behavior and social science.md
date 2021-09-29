@@ -71,3 +71,23 @@ In STATA, **!= means not equal; a space means missing value**, e.g.
 
 which means list values which are higher than 3 standard deviation and is not a missing value.
 
+
+
+## Week 4
+
+log transformation: transform asymmetrical distribution to a symmetrical one coUsing: gen y=ln(x)
+
+### Regression
+
+**Person Correlation: **
+$$
+r=\frac{\sum z_{x}z_{y}}{N-1}
+$$
+**Standardized the data:**
+$$
+Z_{x}=\frac{x-\bar{x}}{SD_{x}}
+$$
+**Positive Correlation:** x and y have a unidimensional relationship
+
+**Comment Return List**: Use to display the post-estimation statistics that were usually hidden in STATA
+
