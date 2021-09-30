@@ -27,11 +27,11 @@ Generate: command use when you want to generate a new variable, can be shorten a
 
 When you manipulate the original variable, the standardized deviation will reflect the same change.
 
-![image-20210922174052890](https://wechat-1255725648.cos.ap-shanghai.myqcloud.com/image-20210922174052890.png)
+![](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202109292127436.png)
 
-![image-20210922174119034](https://wechat-1255725648.cos.ap-shanghai.myqcloud.com/image-20210922174119034.png)
+![](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202109292127437.png)
 
-![image-20210922174137353](https://wechat-1255725648.cos.ap-shanghai.myqcloud.com/image-20210922174137353.png)
+![](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202109292127438.png)
 
 ### Code Varibles
 
@@ -99,7 +99,7 @@ $$
 
 **Command "Return List": Use to display the post-estimation statistics that were usually hidden in STATA**
 
-*占位符空缺*
+![屏幕截图 2021-09-29 203444](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202109292116112.jpg)
 
 #### Add a regression line to the scatter plot:
 
