@@ -99,7 +99,7 @@ $$
 
 **Command "Return List": Use to display the post-estimation statistics that were usually hidden in STATA**
 
-![image-20210929175159247](https://wechat-1255725648.cos.ap-shanghai.myqcloud.com/image-20210929175159247.png)
+*占位符空缺*
 
 #### Add a regression line to the scatter plot:
 
