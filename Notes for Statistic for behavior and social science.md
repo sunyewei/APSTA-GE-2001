@@ -77,25 +77,50 @@ which means list values which are higher than 3 standard deviation and is not a 
 
 log transformation: transform asymmetrical distribution to a symmetrical one coUsing: gen y=ln(x)
 
-### Regression
+### Regression in STATA
 
-**Person Correlation: **
+#### Person Correlation: 
+
 $$
 r=\frac{\sum z_{x}z_{y}}{N-1}
 $$
 
-**Calculate the correlation in STATA:**
+**Calculate the correlation in STATA: **
 
 > cur f(x) g(x)
 
-**Standardized the data:**
+#### Standardized the data:
+
 $$
 Z_{x}=\frac{x-\bar{x}}{SD_{x}}
 $$
 
 **Positive Correlation:** x and y have a unidimensional relationship
 
-**Comment Return List**: Use to display the post-estimation statistics that were usually hidden in STATA
+**Command "Return List": Use to display the post-estimation statistics that were usually hidden in STATA**
 
 ![image-20210929175159247](https://wechat-1255725648.cos.ap-shanghai.myqcloud.com/image-20210929175159247.png)
+
+#### Add a regression line to the scatter plot:
+
+> twoway (scatter f(x) g(x) ) (lfit f(x) g(x))
+
+The command "lfit" means add a regression line to the scatter plot
+
+The regression line is given by: 
+$$
+\hat{y}=bX+a \\
+b=r\frac{S_{y}}{S_{x}} \\
+a=\bar{Y}-b\bar{X}
+$$
+
+#### Calculate the regression in STATA
+
+> regress f(x) g(x)
+
+#### Predict a Y value after the regression:
+
+> predict h(x)
+
+#### R-Squared shows how much percentage of the g(x) can be predicted by f(x)
 
