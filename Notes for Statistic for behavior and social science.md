@@ -105,7 +105,7 @@ $$
 
 > twoway (scatter f(x) g(x) ) (lfit f(x) g(x))
 
-The command "lfit" means add a regression line to the scatter plot
+The command **"lfit"** means add a regression line to the scatter plot
 
 The regression line is given by: 
 $$
