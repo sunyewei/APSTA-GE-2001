@@ -1,5 +1,12 @@
 # Statistic for Behavior and Social Science
 
+## Week 1
+
+1. Nominal Level: based on the simplest form of observation - whether two objects are similar or dissimilar
+2. Ordinal Level: different numbers are assigned to persons or objects that possess different amounts of the underlying characteristic, and the higher the number assigned to a person or object, the less (or more) of the underlying characteristic that person or object is observed to possess
+3. Interval Level:
+4. Ratio Level: 
+
 ## Week 2
 
 * Measure of Central Tendency
@@ -123,4 +130,8 @@ $$
 > predict h(x)
 
 #### R-Squared shows how much percentage of the g(x) can be predicted by f(x)
+
+#### The Beta value predits the association between the change of Standard Deviation within x and y 
+
+E.g. the beta value for x~y = 0.6, the difference between one standard deviation of x result in 0.6 standard deviation of y they predit.
 
