@@ -135,3 +135,54 @@ $$
 
 E.g. the beta value for x~y = 0.6, the difference between one standard deviation of x result in 0.6 standard deviation of y they predit.
 
+
+
+## Week 7
+
+$$
+P(E) = \frac{N \ of \ Outcomes \ Satisfying \ E}{Total \ Number \ of \ Equally \ Likely \ Outcomes}
+$$
+
+
+
+### The Complement Rule of Probability
+
+If two events E1 and E2 are complements of each other, 
+
+**then P(E1 ) = 1 - P(E2 ) **
+
+### The Additive Rules of Probability
+
+1. When two events E1 and E2 of the same experiment are mutually exclusive or disjoint, 
+
+   **P(E1 or E2 ) = P(E1 ) + P(E2 )**
+
+2. Given two events E1 and E2 of the same experiment, 
+
+   **P(E1 or E2)  = P(E1) + P(E2) – P(E1 and E2)**
+
+### The Multiplicative Rule of Probability
+
+Suppose E1 and E2 are independent events of the same experiment, (E1 and E2 are said to be
+independent events if they have no effect on each other; that is, the occurrence of E1
+has no effect on the probability of E2.) 
+
+**Then P(E1 and E2) = P(E1 )  * P(E2 )**
+
+This result also holds for more than two events if they are mutually independent.
+
+### Normal Distributation
+
+![IMG_20211020_173243__01](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202110201734297.jpg)
+
+* The particular normal distribution with mean 0 and standard deviation 1 is called the standard normal distribution
+* A normal distribution is symmetric about its mean
+* A normal distribution is asymptotic. It extends indefinitely to the right and to the left of the mean, always getting closer and closer to the horizontal axis but never quite reaching it
+* The total area under the normal distribution is 1
+
+To find the area under the normal curve to the **left** of a z-score
+
+> display normal(z)
+
+
+
