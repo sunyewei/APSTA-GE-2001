@@ -183,6 +183,3 @@ This result also holds for more than two events if they are mutually independent
 To find the area under the normal curve to the **left** of a z-score
 
 > display normal(z)
-
-
-
