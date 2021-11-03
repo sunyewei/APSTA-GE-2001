@@ -183,3 +183,41 @@ This result also holds for more than two events if they are mutually independent
 To find the area under the normal curve to the **left** of a z-score
 
 > display normal(z)
+
+
+
+## Week 9
+
+**μ** is the mean of the population. 
+
+### 95% Confidence Level
+
+$$
+(\bar{x}-1.96\frac{\sigma}{\sqrt{n}},\bar{x}+1.96\frac{\sigma}{\sqrt{n}})
+$$
+
+### A general equation for the CI for estimating µ is:
+
+$$
+(\bar{x}-z_{c}\frac{\sigma}{\sqrt{n}},\bar{x}+z_{c}\frac{\sigma}{\sqrt{n}})
+$$
+
+### Standard Error or the Standard Deviation of Sample:
+
+$$
+\sigma_{\bar{x}}=\frac{\sigma}{\sqrt{n}}
+$$
+
+### Hypothesis Testing
+
+H0: believed to be true until shown to be implausible (or nullified), it is called the null hypothesis
+
+H1: the alternative hypothesis is the statement we would switch to if, through our experiment or study, H0 were shown to be implausible and H1 plausible
+
+
+
+## Week 10
+
+When the SD of the population is **Known**: Z-test
+
+When the SD of the population is **UNknown**: T-test
