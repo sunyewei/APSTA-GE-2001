@@ -220,4 +220,49 @@ H1: the alternative hypothesis is the statement we would switch to if, through o
 
 When the SD of the population is **Known**: Z-test
 
-When the SD of the population is **UNknown**: T-test
+When the SD of the population is **Unknown**: T-test
+
+
+
+## Week 11
+
+### Two-Sample T-test
+
+H0: μf = μm ---> Δ=0
+
+H1: μf != μm
+$$
+t = \frac{(\bar{x}_{m}-\bar{x}_{f})-(\bar{\mu}_{m}-\bar{\mu}_{f})}{\hat{\sigma}}
+$$
+**Independent Samples: **Compares two independent groups where the scores cannot be matched on a pairwise basis, as in Example 1 in the previous slide. Involves a scale and a dichotomous variable
+
+**Paired Samples:** Compares two variables where the scores can be matched on a pairwise basis
+
+### the Homogeneity Assumption using the Levene’s test (Represent as W0)
+
+> e.g. robvar BMI1 if CURSMOKE1 == 1, by(SEX)
+
+The null hypothesis is that the variances are equal
+
+The alternative hypothesis is that the variances are not equal
+If p (for Levene’s test) > .05 use the equal variances line (independent samples t-test)
+If p (for Levene’s test) < .05, use the unequal variances line (adjusted independent samples ttest)
+
+### The Non-Directional T-Test
+
+> e.g. ttest BMI1 if CURSMOKE1 == 1, by(SEX)
+
+### Effect Size for Independent Samples t-Test
+
+![image-20211110180552884](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202111101805008.png)
+
+In education, we do not always see huge effect size
+
+> e.g. d=0.31, The average BMI at time 1 for males is .31 standard deviations higher than for females, which is a reasonably moderate effect, suggesting that the difference is both statistically and substantively significant.
+
+### Paired Sample T-Test
+
+Example 2: Is there a change in BMI from time 1 to time 3 for females who are current smokers at both times 1 and 3?
+
+> ttest BMI1 == BMI3 if SEX == 2 & CURSMOKE1 == 1 & CURSMOKE3 == 1
+
