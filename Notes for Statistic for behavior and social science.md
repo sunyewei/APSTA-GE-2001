@@ -163,9 +163,7 @@ If two events E1 and E2 are complements of each other,
 
 ### The Multiplicative Rule of Probability
 
-Suppose E1 and E2 are independent events of the same experiment, (E1 and E2 are said to be
-independent events if they have no effect on each other; that is, the occurrence of E1
-has no effect on the probability of E2.) 
+Suppose E1 and E2 are independent events of the same experiment, (E1 and E2 are said to be independent events if they have no effect on each other; that is, the occurrence of E1 has no effect on the probability of E2.) 
 
 **Then P(E1 and E2) = P(E1 )  * P(E2 )**
 
@@ -254,7 +252,7 @@ If p (for Levene’s test) < .05, use the unequal variances line (adjusted indep
 
 ### Effect Size for Independent Samples t-Test
 
-![image-20211110180552884](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202111101805008.png)
+#### ![image-20211110180552884](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202111101805008.png)
 
 In education, we do not always see huge effect size
 
@@ -265,4 +263,22 @@ In education, we do not always see huge effect size
 Example 2: Is there a change in BMI from time 1 to time 3 for females who are current smokers at both times 1 and 3?
 
 > ttest BMI1 == BMI3 if SEX == 2 & CURSMOKE1 == 1 & CURSMOKE3 == 1
+
+## Week 12
+
+### Anova
+
+**Basic question:** Do the mean outcomes (of a continuous variable) differ across groups (of a categorical variable; e.g., gender groups; treatment groups)?
+
+![IMG_0662](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202111171735830.PNG)
+
+H0: All of the group means are equal
+
+H1: At least one of the pairs of means is not equal
+
+![image-20211117185014113](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202111171850389.png)
+
+**To find a critical value**:
+
+> display invFtail(1,27, .05)
 
