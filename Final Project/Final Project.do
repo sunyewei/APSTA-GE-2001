@@ -6,7 +6,8 @@ summarize female, detail
 tabstat (female), stats (n, mean, min, max) 
 tabstat weekly_wage educ,stat(sd mean p25 p50 p75 skew min max) //Q2
 
-by female, sort: tabstat weekly_wage educ, stat(sd mean p25 p50 p75 skew min max) //Q3
+tabstat weekly_wage educ if female == 0, stat(sd mean p25 p50 p75 skew min max)
+tabstat weekly_wage educ if female == 1, stat(sd mean p25 p50 p75 skew min max) //Q3
 
 graph box (weekly_wage), over (female) marker(1,mlabel( uniqid ))
 graph box (educ), over (female) marker(1,mlabel( uniqid ))
