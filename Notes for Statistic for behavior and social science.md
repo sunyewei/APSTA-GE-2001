@@ -94,7 +94,7 @@ $$
 
 **Calculate the correlation in STATA: **
 
-> cur f(x) g(x)
+> cor f(x) g(x)
 
 #### Standardized the data:
 
@@ -103,6 +103,8 @@ Z_{x}=\frac{x-\bar{x}}{SD_{x}}
 $$
 
 **Positive Correlation:** x and y have a unidimensional relationship
+
+![image-20211208181820723](https://raw.githubusercontent.com/sunyewei/picgo/master/img/202112081818895.png)
 
 **Command "Return List": Use to display the post-estimation statistics that were usually hidden in STATA**
 
